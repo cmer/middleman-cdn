@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'fastly', '~> 1.1'
   s.add_dependency 'maxcdn', '~> 0.1'
   s.add_dependency 'ansi', '~> 1.5'
-  s.add_dependency 'activesupport', '~> 4.1'
+  s.add_dependency 'activesupport', '>= 4.2'
   s.add_dependency 'httparty', '~> 0.13'
 
   s.add_development_dependency 'rake', '~> 0.9'
@@ -29,5 +29,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'coveralls', '~> 0.7'
   s.add_development_dependency 'appraisal', '~> 2.1'
 
-  s.add_dependency 'middleman', '>= 3.3'
+  s.add_dependency 'middleman', '>= 4.0'
 end
